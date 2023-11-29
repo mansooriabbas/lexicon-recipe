@@ -15,6 +15,7 @@ body {
 .image-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .image-container img {
   width: 300px;
