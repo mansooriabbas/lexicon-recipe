@@ -7,9 +7,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: antiquewhite;
 }
 .head {
   text-align: center;
+  background-color: burlywood;
+}
+.head h1, h3 {
+  margin: 0;
+  padding: 10px;
 }
 
 .image-container {
@@ -23,7 +29,7 @@ body {
   margin: 10px;
 }
 footer {
-  background-color: #f2f2f2;
+  background-color: burlywood;
   padding: 20px;
   display: flex;
   flex-direction: row;
